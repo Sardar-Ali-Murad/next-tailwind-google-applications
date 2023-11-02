@@ -8,7 +8,7 @@ const SearchInput = ({ searchValue, setSearchValue, handleSubmit }) => {
 
   return (
     <div className="flex flex-row items-center gap-[40px]">
-      <Image src="/assets/images/google.webp" height={100} width={100}  alt="google Image"/>
+      {/* <Image src="/assets/images/google.webp" height={100} width={100}  alt="google Image"/> */}
       <div className="w-[100%]">
         <form onSubmit={handleSubmit}>
           <label
